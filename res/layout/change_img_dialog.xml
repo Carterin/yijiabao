@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#01000000" >
+
+    <Button
+        android:id="@+id/quxiao"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/csy_btn_h"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="@dimen/denglubutton_margin"
+        android:layout_marginRight="@dimen/denglubutton_margin"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/denglu_btn"
+        android:text="取消"
+        android:textColor="@color/white"
+        android:textSize="@dimen/title_size" />
+
+    <Button
+        android:id="@+id/photo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/csy_btn_h"
+        android:layout_above="@id/quxiao"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="@dimen/denglubutton_margin"
+        android:layout_marginRight="@dimen/denglubutton_margin"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/denglu_btn"
+        android:text="从手机相册中选择"
+        android:textColor="@color/white"
+        android:textSize="@dimen/title_size" />
+
+    <Button
+        android:id="@+id/carmera"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/csy_btn_h"
+        android:layout_above="@id/photo"
+        android:layout_marginLeft="@dimen/denglubutton_margin"
+        android:layout_marginRight="@dimen/denglubutton_margin"
+        android:background="@drawable/denglu_btn"
+        android:text="拍照"
+        android:textColor="@color/white"
+        android:textSize="@dimen/title_size" />
+
+</RelativeLayout>

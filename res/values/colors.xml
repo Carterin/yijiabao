@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_color">#1fc6f0</color>
+    <color name="title_cocle">#ffffff</color>
+    <color name="bt_cocle1">#ff5f63</color>
+    <color name="bt_cocle2">#b778fd</color>
+    <color name="bt_cocle3">#71bffc</color>
+    <color name="bt_cocle4">#fec429</color>
+    <color name="bt_cocle5">#ff6d57</color>
+    <color name="bt_cocle6">#95d639</color>
+    <color name="allbackground">#e8e8e8</color>
+    <color name="red">#ff0000</color>
+    <color name="green">#00ff00</color>
+    <color name="blue">#0000ff</color>
+    <color name="white">#ffffff</color>
+    <color name="white1">#50ffffff</color>
+    <color name="denglu">#1fc6f0</color>	
+	<color name="denglu_on">#0ea7cd</color>
+    <color name="zhuxiao">#FF3333</color>	
+	<color name="zhuxiao_on">#CC0000</color>
+ 
+    
+     <color name="csy_bg_body">#ffe9e9e9</color> 
+    <color name="csy_row_on">#fff0f0f0</color> 
+    <color name="csy_border">#ffd0d0d0</color>
+	<color name="csy_green">#ff3caa0f</color>	
+	<color name="csy_green_on">#ff28780a</color>
+	<color name="csy_blue">#ff0a7dd2</color>
+	<color name="csy_blue_on">#ff0a64aa</color>	
+    <color name="csy_label">#ff969696</color>
+    <color name="csy_text">#ff555555</color>
+    <color name="csy_hint">#ffc6c6c6</color>
+    
+    
+    
+</resources>

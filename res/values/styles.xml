@@ -1,0 +1,66 @@
+<resources>
+
+
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    
+        <style name="csy_row">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/csy_row_h</item>
+        <item name="android:paddingLeft">@dimen/csy_pd</item>
+    </style>
+
+    <style name="csy_row1" parent="csy_row">
+        <item name="android:background">@drawable/csy_form_row</item>
+    </style>
+
+    <style name="csy_row_label">
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">@dimen/csy_label_w</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/csy_label</item>
+    </style>
+
+    <style name="csy_textbox">
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/csy_text</item>
+        <item name="android:textColorHint">@color/csy_hint</item>
+        <item name="android:background">@drawable/csy_textbox</item>
+        <item name="android:textSize">@dimen/csy_text_ts</item>
+    </style>
+
+    <style name="csy_textbox1" parent="csy_textbox">
+        <item name="android:layout_marginRight">@dimen/csy_icon_w</item>
+    </style>
+
+    <style name="csy_row_icon">
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">@dimen/csy_icon_w</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    
+    
+    <style name="AlertDialog" parent="@android:Theme.DeviceDefault.Light.Dialog">  
+<!-- 这里设置背景为透明，为了隐藏边框 -->  
+        <item name="android:windowBackground">@android:color/transparent</item>  
+        <item name="android:windowNoTitle">true</item>  
+<!-- 这里是修改顶部标题背景颜色，具体颜色自己定，可以是图片 -->  
+        <item name="android:topDark">@color/white</item>  
+ <!-- 这里是修改内容区域背景颜色 -->  
+    <item name="android:centerDark">@color/white1</item>  
+        <item name="android:windowIsTranslucent">true</item>  
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>  
+</style>  
+    
+    
+
+</resources>

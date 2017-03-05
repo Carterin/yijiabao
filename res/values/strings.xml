@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">易驾宝</string>
+    <string name="hello_world">Hello world!</string>
+   <string name="daohan_bt">导航</string>
+   <string name="jiayouzhan_bt">加油站</string>
+   <string name="tinchechang_bt">停车场</string>
+   <string name="weizhang_bt">违章查询</string>
+   <string name="cheliangxinxi_bt">车辆信息</string>
+   <string name="yinyue_bt">音乐</string>
+   <string name="luxiansousuo_name">路线搜索</string>
+   
+   
+   <string name="csy_form_tip">目前仅支持小型汽车查询</string>
+    <string name="csy_btn_query">开始查询</string>    
+    <string name="csy_cxdz_lab">查询地</string>
+    <string name="csy_cxdz_tip">请选择查询地</string>    
+    <string name="csy_chepai_lab">车牌号</string>
+    <string name="csy_chepai_tip">请输入车牌号后6位</string>
+    <string name="csy_chejia_lab">车架号</string>    
+    <string name="csy_engine_lab">发动机号</string>
+    <string name="csy_close">关闭</string>
+   
+
+</resources>

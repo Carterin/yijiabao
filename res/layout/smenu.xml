@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+     >
+
+    <com.jeremyfeinstein.slidingmenu.lib.SlidingMenu 
+        android:id="@+id/slidingmenulayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            
+            <com.yijiabao.view.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/head_image"
+            android:layout_width="@dimen/head_image_size"
+            android:layout_height="@dimen/head_image_size"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/head"
+            android:layout_marginTop="@dimen/head_image_margintop"
+            app:border_color="#FFffffff"
+            app:border_width="1dp" />
+            
+            <TextView 
+                android:id="@+id/name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="请登录"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/edit_margintop"
+                android:textSize="@dimen/font_size2"
+                />
+            
+            <View 
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_height"
+                android:layout_marginTop="@dimen/view_margintop1"
+                android:background="@color/allbackground"
+                />
+            
+            <LinearLayout
+                android:id="@+id/mycar_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                 >
+            <TextView 
+                
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的汽车"
+                android:layout_marginTop="@dimen/edit_margintop"
+                android:layout_marginBottom="@dimen/edit_margintop"
+                android:layout_marginLeft="@dimen/tv_marginleft"
+                android:textSize="@dimen/font_size3"
+                />
+            </LinearLayout>
+            
+            <View 
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_height"
+                android:background="@color/allbackground"
+                />
+            
+            <LinearLayout
+                android:id="@+id/dingdan_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                 >
+            <TextView 
+                
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="预约订单"
+                android:layout_marginTop="@dimen/edit_margintop"
+                android:layout_marginBottom="@dimen/edit_margintop"
+                android:layout_marginLeft="@dimen/tv_marginleft"
+                android:textSize="@dimen/font_size3"
+                />
+            </LinearLayout>
+            
+            <View 
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_height"
+                android:background="@color/allbackground"
+                />
+            
+            <LinearLayout
+                android:id="@+id/sao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                 >
+            <TextView 
+                
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="扫一扫"
+                android:layout_marginTop="@dimen/edit_margintop"
+                android:layout_marginBottom="@dimen/edit_margintop"
+                android:layout_marginLeft="@dimen/tv_marginleft"
+                android:textSize="@dimen/font_size3"
+                />
+            </LinearLayout>
+            
+            <View 
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_height"
+                android:background="@color/allbackground"
+                />
+            
+            <View 
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_height"
+                android:layout_marginTop="@dimen/view_margintop2"
+                android:background="@color/allbackground"
+                />
+            
+            <LinearLayout
+                android:id="@+id/about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                 >
+            <TextView 
+                
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="关于"
+                android:layout_marginTop="@dimen/edit_margintop"
+                android:layout_marginBottom="@dimen/edit_margintop"
+                android:layout_marginLeft="@dimen/tv_marginleft"
+                android:textSize="@dimen/font_size3"
+                />
+            </LinearLayout>
+            
+            <View 
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_height"
+                android:background="@color/allbackground"
+                />
+            
+            
+            
+            <Button 
+                android:id="@+id/denglu_bt"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/csy_btn_h"
+                android:layout_margin="@dimen/denglubutton_margin"
+                
+                android:text="登        录"
+                android:textSize="@dimen/title_size"
+                android:textColor="@color/white"
+                android:background="@drawable/denglu_btn"
+                />
+            
+            
+        </LinearLayout>
+        
+        
+        
+        
+        
+    </com.jeremyfeinstein.slidingmenu.lib.SlidingMenu>
+   
+
+</LinearLayout>

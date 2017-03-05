@@ -1,0 +1,159 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/allbackground"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <!-- 标题栏 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_title_height"
+        android:background="@color/main_color" >
+
+        <com.yijiabao.view.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/main_head_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+			android:layout_marginLeft="@dimen/img_marginlight"
+			android:layout_marginTop="5dp"
+			android:layout_marginBottom="5dp"
+			android:layout_alignParentLeft="true"
+             />
+
+        <TextView
+            android:id="@+id/title_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/app_name"
+            android:textColor="@color/title_cocle"
+            android:textSize="@dimen/title_size" />
+    </RelativeLayout>
+
+    <!-- 标题栏以下可滚动区域 -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- 轮播图 -->
+            <com.youth.banner.Banner
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/banner"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:image_scale_type="center_crop"
+                app:indicator_drawable_selected="@drawable/selected_radius"
+                app:title_background="#551fc6f0" />
+            
+            <!-- 按钮布局 -->
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <!-- 按钮水平布局1 -->
+                <LinearLayout 
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    >
+                    <Button 
+                        android:id="@+id/daohan_but"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/bt_height"
+                        android:text="@string/daohan_bt"
+                        android:textSize="@dimen/but_font_size"
+                        android:textColor="@color/title_cocle"
+                        android:layout_margin="@dimen/bt_margin"
+                        android:layout_weight="1"
+                        android:background="@color/bt_cocle1"/>
+                    
+                    <Button 
+                        android:id="@+id/jiayouzhan_but"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/bt_height"
+                        android:text="@string/jiayouzhan_bt"
+                        android:textSize="@dimen/but_font_size"
+                        android:textColor="@color/title_cocle"
+                        android:layout_margin="@dimen/bt_margin"
+                        android:layout_weight="1"
+                        android:background="@color/bt_cocle2"/>
+                    
+                    <Button 
+                        android:id="@+id/tinchechang_but"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/bt_height"
+                        android:text="@string/tinchechang_bt"
+                        android:textSize="@dimen/but_font_size"
+                        android:textColor="@color/title_cocle"
+                        android:layout_margin="@dimen/bt_margin"
+                        android:layout_weight="1"
+                        android:background="@color/bt_cocle3"/>
+                    
+                </LinearLayout>
+                
+                <!-- 按钮水平布局2 -->
+                <LinearLayout 
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    >
+                    
+                    <Button 
+                        android:id="@+id/weizhang_but"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/bt_height"
+                        android:text="@string/weizhang_bt"
+                        android:textSize="@dimen/but_font_size"
+                        android:textColor="@color/title_cocle"
+                        android:layout_margin="@dimen/bt_margin"
+                        android:layout_weight="1"
+                        android:background="@color/bt_cocle4"/>
+                    
+                    <Button 
+                        android:id="@+id/cheliangxinxi_but"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/bt_height"
+                        android:text="@string/cheliangxinxi_bt"
+                        android:textSize="@dimen/but_font_size"
+                        android:textColor="@color/title_cocle"
+                        android:layout_margin="@dimen/bt_margin"
+                        android:layout_weight="1"
+                        android:background="@color/bt_cocle5"/>
+                    
+                    <Button 
+                        android:id="@+id/yinyue_but"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/bt_height"
+                        android:text="@string/yinyue_bt"
+                        android:textSize="@dimen/but_font_size"
+                        android:textColor="@color/title_cocle"
+                        android:layout_margin="@dimen/bt_margin"
+                        android:layout_weight="1"
+                        android:background="@color/bt_cocle6"/>
+                    
+                </LinearLayout>
+                
+                
+                
+            </LinearLayout>
+            
+           
+            
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

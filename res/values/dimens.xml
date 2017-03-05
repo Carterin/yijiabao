@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_title_height">50dp</dimen><!-- 主页标题栏高度 -->
+    <dimen name="head_img_layout_marginLeft">10dp</dimen><!-- 主页左上角头像按钮左边距宽度 -->
+    <dimen name="title_size">20sp</dimen>
+    <dimen name="but_font_size">25sp</dimen>
+    <dimen name="bt_margin">5dp</dimen>
+    <dimen name="bt_height">80dp</dimen>
+    <dimen name="img_marginlight">3dp</dimen>
+    <dimen name="img_padding">5dp</dimen>
+    <dimen name="edit_marginleft">10dp</dimen>
+    <dimen name="edit_margintop">10dp</dimen>
+    <dimen name="tv_marginleft">15dp</dimen>
+    <dimen name="font_size1">15sp</dimen>
+    <dimen name="font_size2">18sp</dimen>
+    <dimen name="font_size3">20sp</dimen>
+    <dimen name="view_height">0.5dp</dimen>
+    <dimen name="view_margintop1">30dp</dimen>
+    <dimen name="view_margintop2">60dp</dimen>
+    <dimen name="denglubutton_margin">30dp</dimen>
+    
+    
+    
+    <dimen name="csy_pd">10.0dp</dimen>
+    <dimen name="csy_mg">15.0dp</dimen>
+    <dimen name="csy_label_w">70.0dp</dimen>
+    <dimen name="csy_icon_w">40.0dp</dimen>
+    <dimen name="csy_row_h">64.0dp</dimen> 
+    <dimen name="csy_item_h">52.0dp</dimen>    
+    <dimen name="csy_tip_h">30.0dp</dimen>
+    <dimen name="csy_btn_h">45.0dp</dimen> 
+      
+    <dimen name="csy_label_ts">13.0sp</dimen>
+    <dimen name="csy_tip_ts">14.0sp</dimen>
+    <dimen name="csy_text_ts">16.0sp</dimen>
+    <dimen name="csy_title_ts">18.0sp</dimen>
+
+    <dimen name="slidingwidth">100dp</dimen>
+    <dimen name="head_image_size">70dp</dimen>
+    <dimen name="head_image_size_min">60dp</dimen>
+    <dimen name="head_image_margintop">30dp</dimen>
+
+
+
+
+
+
+
+</resources>
